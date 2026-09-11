@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAF Construction LLC | Expert Roofing & General Construction in Colorado Springs</title>
+    <!-- Tailwind CSS for modern, mobile-responsive layout -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        rafBlue: '#1e3a8a',
+                        rafRed: '#b91c1c',
+                        rafDark: '#0f172a',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased">
+
+    <!-- Top Bar -->
+    <div class="bg-rafDark text-slate-300 text-sm py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-4">
+                <span><i class="fa-solid fa-location-dot text-rafRed mr-1"></i> El Paso County & Colorado Springs Area</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-shield-halved text-blue-400 mr-1"></i> A+ BBB Rated Contractor</span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="tel:7195550199" class="hover:text-white transition"><i class="fa-solid fa-phone text-rafRed mr-1"></i> Free Estimates Available</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <!-- Using the new enhanced logo asset 1.jpg -->
+                <img src="1.jpg" alt="RAF Construction Logo" class="h-12 w-auto object-contain">
+            </div>
+            <nav class="hidden md:flex items-center gap-8 font-medium text-slate-700">
+                <a href="#services" class="hover:text-rafBlue transition">Services</a>
+                <a href="#about" class="hover:text-rafBlue transition">About Our Team</a>
+                <a href="#work" class="hover:text-rafBlue transition">Recent Projects</a>
+                <a href="#contact" class="bg-rafBlue text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-blue-900 transition shadow-sm">Get Free Quote</a>
+            </nav>
+            <div class="md:hidden">
+                <a href="#contact" class="bg-rafBlue text-white px-4 py-2 rounded-lg text-sm font-semibold">Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-r from-slate-900 via-blue-950 to-slate-900 text-white py-24 px-4 overflow-hidden">
+        <div class="absolute inset-0 opacity-20 bg-cover bg-center" style="background-image: url('503765595_24161740390085922_5442345885526130755_n.jpg');"></div>
+        <div class="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="bg-rafRed text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Colorado Springs & Surrounding Areas</span>
+                <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight mt-4 mb-6 leading-tight">
+                    Reliable Roofing & Construction You Can Trust.
+                </h1>
+                <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+                    From storm damage roof replacements to expert structural construction, RAF Construction delivers top-tier craftsmanship with an A+ BBB commitment to quality and honesty.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#contact" class="bg-rafRed hover:bg-red-700 text-white font-bold py-3.5 px-8 rounded-xl text-center transition shadow-lg">
+                        Request a Free Quote
+                    </a>
+                    <a href="#work" class="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold py-3.5 px-8 rounded-xl text-center transition">
+                        View Our Work
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white/10 backdrop-blur-md p-6 sm:p-8 rounded-2xl border border-white/20 shadow-2xl">
+                <h3 class="text-xl font-bold mb-4 text-white">Why Colorado Homeowners Choose RAF:</h3>
+                <ul class="space-y-4 text-slate-200">
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-rafRed mt-1 text-lg"></i>
+                        <span><strong>A+ BBB Rated:</strong> Proven reliability and transparent customer service across El Paso County.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-rafRed mt-1 text-lg"></i>
+                        <span><strong>Expert Installation:</strong> High-end synthetic underlayment, architectural shingles, and precise detailing.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <i class="fa-solid fa-circle-check text-rafRed mt-1 text-lg"></i>
+                        <span><strong>Local Crew:</strong> Experienced professionals dedicated to protecting homes against Colorado weather.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Our Professional Services</h2>
+                <p class="text-slate-600">Built for durability and protection against extreme Pikes Peak weather conditions.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-blue-100 text-rafBlue rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rafBlue group-hover:text-white transition">
+                        <i class="fa-solid fa-house-chimney"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Roof Replacement & Repair</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Full roof tear-offs, architectural shingle installation, ventilation improvements, and high-performance synthetic underlayment protection.
+                    </p>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-blue-100 text-rafBlue rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rafBlue group-hover:text-white transition">
+                        <i class="fa-solid fa-cloud-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Storm Damage Restoration</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Navigating hail and wind damage can be stressful. We provide thorough inspections and expert restoration to restore your home's integrity.
+                    </p>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:shadow-xl transition group">
+                    <div class="w-14 h-14 bg-blue-100 text-rafBlue rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rafBlue group-hover:text-white transition">
+                        <i class="fa-solid fa-hammer"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">General Construction</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Professional structural upgrades, exterior work, and specialized contractor services backed by meticulous craftsmanship.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Meet The Team / About Section -->
+    <section id="about" class="py-20 px-4 bg-slate-100">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <span class="text-rafRed font-bold uppercase tracking-wider text-sm">Experienced Leadership</span>
+                <h2 class="text-3xl font-bold text-slate-900 mt-2 mb-6">Meet the RAF Construction Crew</h2>
+                <p class="text-slate-600 mb-4 leading-relaxed">
+                    At RAF Construction, we believe quality work starts with an experienced, dedicated crew. From project planning to final cleanup on the roof, our team brings professionalism and reliability to every single job site in El Paso County.
+                </p>
+                <p class="text-slate-600 mb-6 leading-relaxed">
+                    We take pride in our clean job sites, safety standards, and clear communication with homeowners from start to finish.
+                </p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-white p-4 rounded-xl border border-slate-200">
+                        <div class="text-2xl font-bold text-rafBlue mb-1">A+</div>
+                        <div class="text-xs text-slate-500 font-medium">BBB Accredited Rating</div>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl border border-slate-200">
+                        <div class="text-2xl font-bold text-rafBlue mb-1">100%</div>
+                        <div class="text-xs text-slate-500 font-medium">Local & Dedicated</div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                    <img src="unnamed.webp" alt="RAF Construction Team" class="w-full h-auto object-cover">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Gallery Section -->
+    <section id="work" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">On the Job With RAF</h2>
+                <p class="text-slate-600">A look at our professional roofing installation standards in local neighborhoods.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-200 bg-slate-50 group">
+                    <img src="o.jpg" alt="Roofing underlayment installation" class="w-full h-80 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-6">
+                        <h3 class="font-bold text-lg text-slate-900">Synthetic Underlayment & Precision Decking</h3>
+                        <p class="text-slate-600 text-sm mt-2">Installing industry-standard moisture barriers and synthetic felt for maximum long-term home protection.</p>
+                    </div>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-lg border border-slate-200 bg-slate-50 group">
+                    <img src="503765595_24161740390085922_5442345885526130755_n.jpg" alt="Roof shingle replacement project" class="w-full h-80 object-cover group-hover:scale-105 transition duration-300">
+                    <div class="p-6">
+                        <h3 class="font-bold text-lg text-slate-900">Architectural Shingle Application</h3>
+                        <p class="text-slate-600 text-sm mt-2">Expert tear-off and replacement ensuring clean lines, robust weather resistance, and proper flashing details.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Quote Section -->
+    <section id="contact" class="py-20 px-4 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto bg-slate-800 rounded-3xl p-8 sm:p-12 border border-slate-700 shadow-2xl">
+            <div class="text-center max-w-xl mx-auto mb-10">
+                <h2 class="text-3xl font-bold mb-3">Get Your Free Estimate Today</h2>
+                <p class="text-slate-400">Need a roof inspection or quote in the Colorado Springs area? Reach out to our team directly.</p>
+            </div>
+            <form class="space-y-6" onsubmit="event.preventDefault(); alert('Thank you! Your quote request has been sent to RAF Construction.');">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Your Name</label>
+                        <input type="text" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-rafRed transition" placeholder="John Smith">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-slate-300 mb-2">Phone Number</label>
+                        <input type="tel" required class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-rafRed transition" placeholder="(719) 555-0199">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Service Needed</label>
+                    <select class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-rafRed transition">
+                        <option>Roof Replacement / Installation</option>
+                        <option>Roof Repair / Leak Fix</option>
+                        <option>Storm / Hail Damage Inspection</option>
+                        <option>General Construction</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-300 mb-2">Project Details / Address</label>
+                    <textarea rows="4" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-rafRed transition" placeholder="Tell us about your project..."></textarea>
+                </div>
+                <button type="submit" class="w-full bg-rafRed hover:bg-red-700 text-white font-bold py-4 rounded-xl transition shadow-lg text-lg">
+                    Submit Quote Request
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-rafDark text-slate-400 py-12 px-4 border-t border-slate-800 text-sm">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="flex items-center gap-3">
+                <!-- Using the clean logo asset 1.jpg in the footer as well -->
+                <img src="1.jpg" alt="RAF Construction Logo" class="h-10 w-auto bg-slate-900 p-1 rounded object-contain">
+                <span class="text-white font-bold">RAF Construction LLC</span>
+            </div>
+            <div>
+                <p>&copy; 2026 RAF Construction LLC. Serving El Paso County & Colorado Springs.</p>
+            </div>
+            <div class="flex gap-4">
+                <span class="text-slate-300"><i class="fa-solid fa-shield-check text-rafRed"></i> A+ Better Business Bureau Rated</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
